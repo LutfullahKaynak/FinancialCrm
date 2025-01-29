@@ -90,14 +90,19 @@ namespace FinancialCrm
         {
             FrmBanks frm = new FrmBanks();
             frm.Show();
-            //this.Hide();
+            this.Hide();
         }
 
         private void btnBillForm_Click(object sender, EventArgs e)
         {
             FrmBilling frm = new FrmBilling();
             frm.Show();
-            //this.Hide();
+            this.Hide();
+        }
+
+        private void btnBillExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
